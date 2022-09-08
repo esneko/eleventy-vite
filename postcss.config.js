@@ -1,9 +1,8 @@
 module.exports = {
   plugins: {
-    'postcss-nesting': {},
-    'autoprefixer': {},
-    'cssnano': {
-      preset: 'default',
+    autoprefixer: {},
+    cssnano: {
+      preset: 'default'
     }
   }
 }

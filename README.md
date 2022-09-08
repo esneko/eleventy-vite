@@ -12,8 +12,6 @@
 - Example implementation of a web font loading strategy ([critical FOFT with preload](https://www.zachleat.com/web/comprehensive-webfonts/#critical-foft-preload))
 - Basic fluid typography based on [Utopia](https://utopia.fyi)
 - Basic dark mode support (using `prefers-color-scheme` and CSS Custom Properties)
-- Polyfill for [focus-visible](https://matthiasott.com/notes/focus-visible-is-here)
-- XML sitemap
 - Lighthouse score 💯
 
 ## Getting started
@@ -39,9 +37,3 @@ To trigger a production build, use
 ```sh
 yarn build
 ```
-
-## CSS
-
-By default, this starter project uses Sass with an opinionated folder structure. Feel free to replace this structure with your own. If you prefer to write standards-compliant, good old plain CSS, this is also supported. Nesting is then possible via the [PostCSS Nesting plugin](https://github.com/csstools/postcss-plugins/tree/main/plugins/postcss-nesting), following the [CSS Nesting specification](https://drafts.csswg.org/css-nesting-1/).
-
-[Autoprefixer](https://github.com/postcss/autoprefixer) adds necessary browser prefixes. The [browserslist](https://github.com/browserslist/browserslist) settings can be adjusted in `package.json`.

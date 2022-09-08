@@ -1,8 +1,8 @@
 {
-  "title": "Eleventy Plus Vite",
+  "title": "My Blog",
   "description": "Eleventy Starter with Vite",
-  "url": "https://eleventyplusvite.netlify.app",
+  "url": "https://esneko.github.io/",
   "lang": "en",
   "locale": "en_us",
-  "author": "me"
+  "author": "esneko"
 }
