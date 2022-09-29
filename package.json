@@ -7,10 +7,10 @@
     "not IE 11"
   ],
   "scripts": {
-    "start": "npx @11ty/eleventy --serve",
-    "watch": "npx @11ty/eleventy --watch",
-    "serve": "npx @11ty/eleventy --serve",
-    "build": "npx @11ty/eleventy",
+    "start": "eleventy --serve",
+    "watch": "eleventy --watch",
+    "serve": "eleventy --serve",
+    "build": "eleventy",
     "clean": "del-cli _site",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
