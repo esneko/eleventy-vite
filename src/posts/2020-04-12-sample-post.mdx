@@ -1,0 +1,17 @@
+---
+title: An example post
+count: 11
+---
+
+Lorem Ipsum
+
+import { Counter } from './counter.js'
+
+<h1>{props.title}</h1>
+
+<Counter start={props.count} />
+
+export const serializeEleventyProps = (props) => ({
+  title: props.title,
+  count: props.count
+})

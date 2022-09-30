@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-export default ({ start }) => {
+export const Counter = ({ start }) => {
   const [state] = useState(start)
   return `Counter: ${state}`
 }
