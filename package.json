@@ -25,10 +25,10 @@
   },
   "homepage": "https://github.com/esneko/eleventy-vite#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.0-canary.13",
+    "@11ty/eleventy": "^2.0.0-canary.16",
     "@11ty/eleventy-img": "^2.0.1",
     "@11ty/eleventy-navigation": "^0.3.3",
-    "@11ty/eleventy-plugin-vite": "^2.0.0-canary.1",
+    "@11ty/eleventy-plugin-vite": "^2.0.0-canary.2",
     "@jamshop/eleventy-plugin-mdx": "^0.0.1",
     "autoprefixer": "^10.4.7",
     "cssnano": "^5.1.12",
