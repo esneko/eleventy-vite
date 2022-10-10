@@ -1,15 +1,8 @@
 ---
 title: An example post
-count: 11
+price: 11
 ---
 
-import { Counter } from './Counter.tsx'
+import { Cart } from './Cart.tsx'
 
-<h1>{props.title}</h1>
-
-<Counter start={props.count} />
-
-export const serializeEleventyProps = (props) => ({
-  title: props.title,
-  count: props.count
-})
+<Cart start={props.price} />
